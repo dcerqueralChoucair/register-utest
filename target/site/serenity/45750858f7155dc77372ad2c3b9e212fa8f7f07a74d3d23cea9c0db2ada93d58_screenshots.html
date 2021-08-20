@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">test register Daniel Cerquera in Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="1d955141f9692eba3ad683318ce98519a1f367c01ce9cc5f94c3e9a53edc0c2c.html">Utest Register</a></span>
+                > <span class="truncate-60"><a
+                    href="45750858f7155dc77372ad2c3b9e212fa8f7f07a74d3d23cea9c0db2ada93d58.html">Register in the platform utest </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 20-08-2021 14:03</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Utest Register </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, automation of user registration will be generated
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Register in the platform utest
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Given Than Daniel want to register in to platform Utest" width="1366"/>
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Daniel open up" width="1366"/>
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Daniel opens the Utest page" width="1366"/>
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Daniel open up (completed)" width="1366"/>
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Daniel join today" width="1366"/>
+                <img src="3299a4438034969c3547e1b275c8a7e06d0374ec7f9ce8fb4c3cbd055e85eff3.png" title=" Daniel clicks on Button that show us the form to register" width="1366"/>
+                <img src="969eda5728fd20e0ad90dfb09879d38d8d2cc7b49de592b0201749e24396b687.png" title=" Daniel clicks on Button that show us the form to register (completed)" width="1366"/>
+                <img src="969eda5728fd20e0ad90dfb09879d38d8d2cc7b49de592b0201749e24396b687.png" title=" Daniel join today (completed)" width="1366"/>
+                <img src="969eda5728fd20e0ad90dfb09879d38d8d2cc7b49de592b0201749e24396b687.png" title=" Given Than Daniel want to register in to platform Utest (completed)" width="1366"/>
+                <img src="332255fe2ff0234fa13eb6dd1678f1c2c1a51840d93d45fd300feaa1a39ba237.png" title=" When He enters the information requested in the Utest registration form
+| strFristName | strLastName | strEmail | strIdiom | strBrand | strModel | strOsVersion | strPassword | strCity | strZip | strCountry |
+| Daniel | Lasso | danielLasso@gmail.com | spanish | Apple | iPhone 8 Plus | iOS 14.5.1 | /DLasso/2021**2021 | Bogot&aacute; | 00000 | Colombia |" width="1366"/>
+                <img src="332255fe2ff0234fa13eb6dd1678f1c2c1a51840d93d45fd300feaa1a39ba237.png" title=" Daniel register user" width="1366"/>
+                <img src="069d3ea51eef6d3f934c5565a7cee7dff4da95c1643e7083ecc910fb4c0fd39a.png" title=" Daniel enters 'Daniel' into Where do we write the frist name to user" width="1366"/>
+                <img src="fac7dd7a625029671eb07cbf9a9ff0bd13b6a8f52a273dfaf7de4f43c17c9178.png" title=" Daniel enters 'Daniel' into Where do we write the frist name to user (completed)" width="1366"/>
+                <img src="fac7dd7a625029671eb07cbf9a9ff0bd13b6a8f52a273dfaf7de4f43c17c9178.png" title=" Daniel enters 'Lasso' into Where do we write the last name to user" width="1366"/>
+                <img src="50aea9261d0ef0e502ad77df409ff6bdb5fd7e04e8ff85d8f9c509e2bef24425.png" title=" Daniel enters 'Lasso' into Where do we write the last name to user (completed)" width="1366"/>
+                <img src="50aea9261d0ef0e502ad77df409ff6bdb5fd7e04e8ff85d8f9c509e2bef24425.png" title=" Daniel enters 'danielLasso@gmail.com' into Where do we write the email to user" width="1366"/>
+                <img src="6b04131c1a9cdaa141c5489a89d30c4b5017f3b608d3557362393c3e612f3e3e.png" title=" Daniel enters 'danielLasso@gmail.com' into Where do we write the email to user (completed)" width="1366"/>
+                <img src="6b04131c1a9cdaa141c5489a89d30c4b5017f3b608d3557362393c3e612f3e3e.png" title=" Daniel clicks on Where do we select the month of birth to user" width="1366"/>
+                <img src="51481ad2202155e87ab816da4f83a010e0ee1ca595f0c0acaf998229f7771953.png" title=" Daniel clicks on Where do we select the month of birth to user (completed)" width="1366"/>
+                <img src="51481ad2202155e87ab816da4f83a010e0ee1ca595f0c0acaf998229f7771953.png" title=" Daniel clicks on Where do we select the day of birth to user" width="1366"/>
+                <img src="153c230022a1c373932137490f724b9a22d9d97626db7442ff57da7de286836d.png" title=" Daniel clicks on Where do we select the day of birth to user (completed)" width="1366"/>
+                <img src="153c230022a1c373932137490f724b9a22d9d97626db7442ff57da7de286836d.png" title=" Daniel clicks on Where do we select the year of birth to user" width="1366"/>
+                <img src="130a822aa5f6ccb1502bf65c0397660ee3326fe2b2e4eb448cce4eaf159498e6.png" title=" Daniel clicks on Where do we select the year of birth to user (completed)" width="1366"/>
+                <img src="130a822aa5f6ccb1502bf65c0397660ee3326fe2b2e4eb448cce4eaf159498e6.png" title=" Daniel enters 'spanish' into Where do we select the languajes know the user" width="1366"/>
+                <img src="d3ab511a8d5bb30ebad0ac26c29f1c6d35faf0924299ef402083b0bc98aaf06a.png" title=" Daniel enters 'spanish' into Where do we select the languajes know the user (completed)" width="1366"/>
+                <img src="d3ab511a8d5bb30ebad0ac26c29f1c6d35faf0924299ef402083b0bc98aaf06a.png" title=" Daniel clicks on Button to next step in the form to register user" width="1366"/>
+                <img src="8a8718a0c009677d8997841c99642fbc9639cde337292b43acdbb1d60a72f399.png" title=" Daniel clicks on Button to next step in the form to register user (completed)" width="1366"/>
+                <img src="8a8718a0c009677d8997841c99642fbc9639cde337292b43acdbb1d60a72f399.png" title=" Daniel enters '00000' into Where do we select the ZIP Code" width="1366"/>
+                <img src="6a9efb043aaa3230d9b9e23ca95300d9e10a6fd6f979b66f4c7573505be2d25f.png" title=" Daniel enters '00000' into Where do we select the ZIP Code (completed)" width="1366"/>
+                <img src="6a9efb043aaa3230d9b9e23ca95300d9e10a6fd6f979b66f4c7573505be2d25f.png" title=" Daniel clicks on Button to second step in the form to register user" width="1366"/>
+                <img src="fa1565759b8f0dbfc95bbe944d32ed62f75777660df7b91bf0690d28437a61ae.png" title=" Daniel clicks on Button to second step in the form to register user (completed)" width="1366"/>
+                <img src="fa1565759b8f0dbfc95bbe944d32ed62f75777660df7b91bf0690d28437a61ae.png" title=" Daniel clicks on Select brand movile user" width="1366"/>
+                <img src="f7c8c2aaf17a021862418dda1dfe39894fc9acd4e8fdfbda2a5a025d9e605a59.png" title=" Daniel clicks on Select brand movile user (completed)" width="1366"/>
+                <img src="f7c8c2aaf17a021862418dda1dfe39894fc9acd4e8fdfbda2a5a025d9e605a59.png" title=" Daniel enters 'Apple' into Write" width="1366"/>
+                <img src="4267d0f13f3329be31331574f723fb669e7d89360187549cffd499cb155c3e96.png" title=" Daniel enters 'Apple' into Write (completed)" width="1366"/>
+                <img src="4267d0f13f3329be31331574f723fb669e7d89360187549cffd499cb155c3e96.png" title=" Daniel clicks on Select brand movile user" width="1366"/>
+                <img src="8873881f90caad9a997d9f86ef0c267e24bb127dd9ec7a8606b5cdf4c296d49b.png" title=" Daniel clicks on Select brand movile user (completed)" width="1366"/>
+                <img src="8873881f90caad9a997d9f86ef0c267e24bb127dd9ec7a8606b5cdf4c296d49b.png" title=" Daniel enters 'iPhone 8 Plus' into Write Model to device " width="1366"/>
+                <img src="ac5c08bc02523bd65320178af910c16731374b46f83bb502f8adee4677a3203b.png" title=" Daniel enters 'iPhone 8 Plus' into Write Model to device  (completed)" width="1366"/>
+                <img src="ac5c08bc02523bd65320178af910c16731374b46f83bb502f8adee4677a3203b.png" title=" Daniel clicks on Select OS movile user" width="1366"/>
+                <img src="663dfb8d0941247c9c52e84effeb0ce575d49ba05956bf1313fec7808b1b96d7.png" title=" Daniel clicks on Select OS movile user (completed)" width="1366"/>
+                <img src="663dfb8d0941247c9c52e84effeb0ce575d49ba05956bf1313fec7808b1b96d7.png" title=" Daniel enters 'iOS 14.5.1' into Write OS vertions to device " width="1366"/>
+                <img src="c1b4fa82b1fe4502a9eba27c3ea1bb3240d81967cb64890fdfeaf0148c880ef3.png" title=" Daniel enters 'iOS 14.5.1' into Write OS vertions to device  (completed)" width="1366"/>
+                <img src="c1b4fa82b1fe4502a9eba27c3ea1bb3240d81967cb64890fdfeaf0148c880ef3.png" title=" Daniel clicks on Button to last step in the form to register user" width="1366"/>
+                <img src="fc1e1e1b2621ebcd8dde982803c7690861a468ceb58e39ca78b1f750fb85054e.png" title=" Daniel clicks on Button to last step in the form to register user (completed)" width="1366"/>
+                <img src="fc1e1e1b2621ebcd8dde982803c7690861a468ceb58e39ca78b1f750fb85054e.png" title=" Daniel enters '/DLasso/2021**2021' into Where do we write the password to user" width="1366"/>
+                <img src="c0f53c727bf4ebf7fb6589673298c56ceab2896df91b05cd68b44d8a6281364c.png" title=" Daniel enters '/DLasso/2021**2021' into Where do we write the password to user (completed)" width="1366"/>
+                <img src="c0f53c727bf4ebf7fb6589673298c56ceab2896df91b05cd68b44d8a6281364c.png" title=" Daniel enters '/DLasso/2021**2021' into Where do we write the confirm password to user" width="1366"/>
+                <img src="5e1a888c5e2f219e2a09315f24fbafd12ed2e15d1ff841826343deda2c501f3c.png" title=" Daniel enters '/DLasso/2021**2021' into Where do we write the confirm password to user (completed)" width="1366"/>
+                <img src="5e1a888c5e2f219e2a09315f24fbafd12ed2e15d1ff841826343deda2c501f3c.png" title=" Daniel clicks on Accept the terms of use" width="1366"/>
+                <img src="47cff224f02544c6613ba900698ada68f9655c89e47e0e260e5c50e4224f47dd.png" title=" Daniel clicks on Accept the terms of use (completed)" width="1366"/>
+                <img src="47cff224f02544c6613ba900698ada68f9655c89e47e0e260e5c50e4224f47dd.png" title=" Daniel clicks on Accept the privacy and securiry policy" width="1366"/>
+                <img src="897608a29db58356c222f31b1db0bf18a29cdeda073daa9da53166eedc85b40f.png" title=" Daniel clicks on Accept the privacy and securiry policy (completed)" width="1366"/>
+                <img src="897608a29db58356c222f31b1db0bf18a29cdeda073daa9da53166eedc85b40f.png" title=" Daniel register user (completed)" width="1366"/>
+                <img src="897608a29db58356c222f31b1db0bf18a29cdeda073daa9da53166eedc85b40f.png" title=" When He enters the information requested in the Utest registration form
+| strFristName | strLastName | strEmail | strIdiom | strBrand | strModel | strOsVersion | strPassword | strCity | strZip | strCountry |
+| Daniel | Lasso | danielLasso@gmail.com | spanish | Apple | iPhone 8 Plus | iOS 14.5.1 | /DLasso/2021**2021 | Bogot&aacute; | 00000 | Colombia | (completed)" width="1366"/>
+                <img src="77d1f1e2d9718744824e13616c0f41cd8a2bbff085f70d9d84288779ddef175d.png" title=" Then Go back to the Utest home page select the login option and enter the access credentials the access credentials validate The last step" width="1366"/>
+                <img src="77d1f1e2d9718744824e13616c0f41cd8a2bbff085f70d9d84288779ddef175d.png" title=" Then final step" width="1366"/>
+                <img src="aba5657b749116de3bab44de919bae445286b81d26f2a9158e61eb6c9da31f6d.png" title=" Then final step (completed)" width="1366"/>
+                <img src="aba5657b749116de3bab44de919bae445286b81d26f2a9158e61eb6c9da31f6d.png" title=" Then Go back to the Utest home page select the login option and enter the access credentials the access credentials validate The last step (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
